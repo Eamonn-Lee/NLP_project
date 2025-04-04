@@ -1,5 +1,7 @@
 Project Title: Industry Project
+
 Team Name: NLPCoders
+
 Group Members:
 - Eamonn Lee (z5358883)
 - Rubik Liu (z5564105)
