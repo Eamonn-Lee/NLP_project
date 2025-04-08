@@ -5,9 +5,9 @@ from bs4 import BeautifulSoup
 import math
 
 # Load CSV
-file_path = '/Users/garry/PycharmProjects/6713/test/job_data_files/salary_labelled_development_set.csv'
-test_file_path = '/Users/garry/PycharmProjects/6713/test/job_data_files/salary_labelled_test_set.csv'
-ignore_id_path = '/Users/garry/PycharmProjects/6713/test/err_salary_develpment.csv'
+file_path = '../DATASETS/salary_labelled_development_set.csv'
+test_file_path = '../DATASETS/salary_labelled_test_set.csv'
+ignore_id_path = '../DATASETS/err_salary_develpment.csv'
 
 
 df = pd.read_csv(file_path)
