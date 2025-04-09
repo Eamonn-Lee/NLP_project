@@ -1,4 +1,4 @@
-# **EXPERIMENTAL RESULTS**
+# **RESULTS EVALUATION**
 
 ## **SALARY – BASELINE PERFORMANCE**
 
@@ -23,3 +23,13 @@
 
 **Test Dataset:**
 - Accuracy: 72.73%
+
+---
+
+## **SENIORITY – BASELINE PERFORMANCE**
+
+**Development Dataset:**
+- Accuracy: 38.84%
+
+**Test Dataset:**
+- Accuracy: 37.01%
