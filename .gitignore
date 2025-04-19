@@ -1,2 +1,5 @@
-# DATASETS/*
+DATASETS/*
+**/LAB/
+**/CODE-GenerativeQA/
+try.py
 __pycache__/
