@@ -1,5 +1,8 @@
 DATASETS/*
 **/LAB/
+CODE-Bert/roberta-qa-1145/
+CODE-Bert/roberta-qa-1463/
+CODE-Bert/roberta-qa-1611/
 **/CODE-GenerativeQA/
 try.py
 __pycache__/
