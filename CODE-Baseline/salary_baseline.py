@@ -172,7 +172,7 @@ def extract_salary_with_inference(text, nation_code):
             is_range = False
 
             # Match salary
-            pattern = r'\b(\d+(?:,\d+)*(?:\.\d+)?)\b\s*(?:[-–—|TO|to|To])?\s*(?:[€$₱¥₹]|[a-z]{0,3})?\s*\b(\d+(?:,\d+)*(?:\.\d+)?)?\b'
+            # pattern = r'\b(\d+(?:,\d+)*(?:\.\d+)?)\b\s*(?:[-–—|TO|to|To])?\s*(?:[€$₱¥₹]|[a-z]{0,3})?\s*\b(\d+(?:,\d+)*(?:\.\d+)?)?\b'
             # F1 > 0.7
             pattern = r'(\d+(?:,\d+)*(?:\.\d+)?)\s*(?:[-–—])?\s*(?:[€$₱¥₹]|[a-z]{0,3})?\s*(\d+(?:,\d+)*(?:\.\d+)?)?'
             match = re.search(pattern, window_text)
