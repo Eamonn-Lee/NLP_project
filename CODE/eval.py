@@ -1,8 +1,5 @@
 import pandas as pd
 
-def accuracy():
-    return None
-
 def precision(category_list, df_actual, df_predict):
     """
     When I predict X, how often is it actual X?
