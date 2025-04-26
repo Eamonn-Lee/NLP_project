@@ -34,3 +34,35 @@ def precision(category_list, df_actual, df_predict):
 
     return cat_predictions
 
+def recall(category_list, df_actual, df_predict):
+    """
+    When it is actually X, how often did I predict X?
+
+    = True_Positive(x) / (True_Positive(x) + False_Negative(x))
+
+    Returns dictionary with all categories + average recall
+    """
+
+    # 2 dictionaries
+    t_pos = {x: 0 for x in category_list}
+    f_neg = {x: 0 for x in category_list}
+
+    for actual, prediction in zip(df_actual, df_predict):
+        if actual == prediction:    #blame actual over prediction
+            t_pos[actual] += 1
+        else:
+            f_neg[actual] += 1
+
+    cat_recalls = {}
+    total = 0
+
+    for c in category_list:
+        if t_pos[c] + f_neg[c] > 0:
+            cat_recalls[c] = t_pos[c] / (t_pos[c] + f_neg[c])
+        else:
+            cat_recalls[c] = 0  # No actual examples, recall undefined so 0
+        total += cat_recalls[c]
+
+    cat_recalls["AVERAGE"] = total / len(category_list)
+
+    return cat_recalls
