@@ -16,17 +16,19 @@ Eddie Zhang (z5481990):
 Rubik Liu (z5564105):
 
 Yiming Zhou (z5462488):
-    salary_baseline(based on work from Eddie Rubik, improve acc 50% 66% to 84%)
+    Developed the salary_baseline model based on Eddie Rubik's work, improving the salary prediction accuracy from 66% to 84%.
     wa_baseline_v2
     seniority_baseline
-    salary_nft_RoBerta
-    salary_nft_Bert
-    salary_nft_mt5
-    salary_ft_RoBerta
-    salary_ft_mt5
-    gradio demo for salary
-    WA_FT_Roberta 
-    training, predecting and evaluation for above
-    
-    owned labbelld 1900 dataset and detect error for salary
-    WA baseline for presentation
+    Built and fine-tuned multiple models for salary prediction tasks, including:
+        salary_nft_RoBERTa
+        salary_nft_BERT
+        salary_nft_mT5
+        salary_ft_RoBERTa
+        salary_ft_mT5
+    Designed and implemented a Gradio demo to visualize the salary prediction results.
+    Built the WA_FT_RoBERTa model for work arrangement classification.
+    Completed the full workflow for all models listed above, including training, prediction, and evaluation.
+
+    Manually labeled a dataset of 1900 entries for the salary extraction task.
+    Conducted error detection on the original development dataset, identified 133 erroneous samples, and removed them to improve dataset quality.
+    WA baseline model and results for presentation.
