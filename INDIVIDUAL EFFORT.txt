@@ -20,6 +20,16 @@ Eddie Zhang (z5481990):
     - Collated and edited team report
 
 Rubik Liu (z5564105):
+    - Developed salary_baseline model
+    - Developed non fine-tuned salary solution using BERT (on local branch)
+    - Developed fine-tuned salary solution using T5-base model
+    - Wrote salary baseline section of the report
+    - Wrote fine-tuned salary section of the report
+    - Demonstrate the salary baseline part in presentation
+    - Demonstrate the salary fine-tuning part in presentation
+    - Demonstrate the gradio of salary model in presentation
+    - Compare and discuss three salary fine-tuned models in reports and presentations.
+
 
 Yiming Zhou (z5462488):
     Developed the salary_baseline model based on Eddie Rubik's work, improving the salary prediction accuracy from 66% to 84%.
