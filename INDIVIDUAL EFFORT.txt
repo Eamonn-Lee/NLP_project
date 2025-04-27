@@ -1,12 +1,12 @@
 Team Name: NLPCoders
 ----------------------------------
 Eamonn Lee (z5358883):
-    wa_baseline
-    wa_causal_0shot
-    wa_causal_finetuned
-    wa_textclassification_0shot
-    wa_textclassification_finetuned
-    evaluation modules used in above
+    code: wa_baseline
+    code: wa_causal_0shot
+    code: wa_causal_finetuned
+    code: wa_textclassification_0shot
+    code: wa_textclassification_finetuned
+    code: evaluation modules used in above
     
     All work arrangements discussion in report
     Causal and textual classification discussion in presentation
