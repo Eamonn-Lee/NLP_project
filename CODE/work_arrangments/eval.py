@@ -1,5 +1,7 @@
 import pandas as pd
 
+#External module for evaluation files
+
 def precision(category_list, df_actual, df_predict):
     """
     When I predict X, how often is it actual X?
