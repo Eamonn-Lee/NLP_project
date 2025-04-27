@@ -16,3 +16,17 @@ Eddie Zhang (z5481990):
 Rubik Liu (z5564105):
 
 Yiming Zhou (z5462488):
+    salary_baseline(based on work from Eddie Rubik, improve acc 50% 66% to 84%)
+    wa_baseline_v2
+    seniority_baseline
+    salary_nft_RoBerta
+    salary_nft_Bert
+    salary_nft_mt5
+    salary_ft_RoBerta
+    salary_ft_mt5
+    gradio demo for salary
+    WA_FT_Roberta 
+    training, predecting and evaluation for above
+    
+    owned labbelld 1900 dataset and detect error for salary
+    WA baseline for presentation
