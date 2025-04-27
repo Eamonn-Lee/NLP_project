@@ -12,6 +12,12 @@ Eamonn Lee (z5358883):
     Causal and textual classification discussion in presentation
 
 Eddie Zhang (z5481990):
+    - Developed salary_baseline model
+    - Developed non-finetuned salary solution using BiLSTM+CRF (on local branch)
+    - Wrote non-finetuned salary section of the report
+    - Wrote project scope, introduction and conclusion of the report
+    - Collated and edited team presentation
+    - Collated and edited team report
 
 Rubik Liu (z5564105):
 
